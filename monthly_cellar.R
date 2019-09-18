@@ -16,7 +16,7 @@ library(forecast)
 library(lubridate)
 
 
-########## DATA PREPARATION
+########## DATA PREPARATION ##########
 
 
 # We are going to study the following monthly annual series. First, we prepare the data. We have monthly sales observations from
