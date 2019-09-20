@@ -1,6 +1,6 @@
 
 
-########## TIME SERIES ANALYSIS. MONTHLY ANALYSIS 1 
+########## TIME SERIES ANALYSIS. MONTHLY ANALYSIS 1 ##########
 
 
 install.packages('TSA')
