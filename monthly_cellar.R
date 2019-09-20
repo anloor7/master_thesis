@@ -41,7 +41,7 @@ validation_series <- window(total_series, start=end(training_series) + c(0,1), f
 ########## SARIMA MODEL
 
 
-########## PREPROCESSING 
+########## PREPROCESSING
 
 
 # Total series plotplot(total_series, type="o", lwd=3, col = 'red', xlab='month', ylab='Litres of beer')
