@@ -10,7 +10,7 @@ library(lubridate)
 library(ggfortify)
 library(gridExtra)
 
-data <- read.table("mensuales_ferrol.txt", header = T, sep =';')
+data <- read.table("monthly_cellar_middle.txt", header = T, sep =';')
 colnames(data) <- c('MONTH', 'MONTH DESCRIPTION', 'SALES')
 head(data)
 data
