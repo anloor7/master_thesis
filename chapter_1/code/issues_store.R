@@ -7,7 +7,7 @@ library(forecast)
 library(ggfortify)
 library(gridExtra)
 
-data <- read.csv('totales1.txt', header = T, sep = ';')
+data <- read.csv('store.txt', header = T, sep = ';')
 head(data)
 data_estab <- data[which(data$LOCAL_ID == 53),]
 index <- which(data_estab$SEMANA == 201254)
