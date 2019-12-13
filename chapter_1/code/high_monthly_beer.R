@@ -22,7 +22,7 @@ library(gridExtra)
 # We are going to study the following monthly annual series. First, we prepare the data. We have monthly sales observations from
 # January of 2008 to August of 2019. 
 
-data <- read.table("monthly_cellar.txt", header = T, sep =';')
+data <- read.table("monthly_cellar_high.txt", header = T, sep =';')
 colnames(data) <- c('MONTH', 'MONTH DESCRIPTION', 'SALES')
 head(data)
 nrow(data)
